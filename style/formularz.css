@@ -1,0 +1,11 @@
+html{
+    text-align: center;
+    background-image: url("../img/spider.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.my_class{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 15px;
+    }

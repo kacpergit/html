@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/formularz.css"/>
 </head>
 <body class="my_class">
+    <div class="bg"></div>
     <form action="formularz2.html" method="get">
         <label>First name: <input type="text" name="Firstname"></label>
         <label>Last name: <input type="text" name="Lastname"></label>
@@ -14,6 +15,7 @@
         <input type="checkbox" name="female" value="female"/>Female
         <br/><br/>
         <textarea name="comment">comment here</textarea>
+        <div style="visibility: hidden">Three letters only allowed</div>
         <br/><br/>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>

@@ -19,3 +19,26 @@ div p{
 p > span{
     color: blue;
     }
+
+.new_web_config{
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    }
+
+.a{
+    list-style-position: inside;
+    }
+.b{
+    list-style-position: outside;
+    }
+
+a {
+text-decoration: none;
+}
+
+a:hover{
+    margin-top: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+}
