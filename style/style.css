@@ -42,3 +42,8 @@ a:hover{
     margin-left: 2px;
     font-weight: bold;
 }
+
+body > p {
+    display: inline;
+}
+

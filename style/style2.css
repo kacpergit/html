@@ -1,0 +1,154 @@
+:root {
+    --header-footer-bg-color: black;
+    --header-height: 114px;
+    --font-color: #242424;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: var(--header-height);
+}
+
+
+
+}
+
+.top-menu ul{
+    list-style: none;
+}
+
+.top-menu li{
+    float: left;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.top-menu a{
+    display: block;
+    line-height: 20px;
+    padding: 0 8px;
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+.top-menu a:hover{
+    margin-bottom: 2px;
+    margin-right: 5px;
+    color: black;
+    text-decoration: flex;
+}
+
+.left{
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    float: left;
+    padding-left: 0;
+    margin-top:
+}
+
+.left-header{
+    font-size: 12px;
+    color: var(--font-color);
+    font-weight: bold;
+    height: 250px;
+    width: 157px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.left ul{
+    margin: 0;
+    list-style: none;
+    padding-top: 114px;
+}
+
+.left li{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 28px;
+}
+
+.left a{
+    font-size: 14px;
+    color: var(--font-color);
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
+
+.right{
+    margin-left: 160px;
+    margin-top: var(--header-height);
+    margin-bottom: 200px;
+}
+
+article{
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-top: 20px;
+    border-left: 1px solid lightgrey;
+    color: var(--font-color);
+}
+
+article h2{
+    padding-top: 15px;
+    font-size: 30px;
+    color: var(--font-color);
+    line-height: 150%;
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+footer{
+    position: relative;
+    right: 0;
+    left: 0;
+    background-color: black;
+    clear: both;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 8px 30px 16px;
+    margin-top: auto;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 12px;
+}
+
+footer ul li a{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer div{
+margin-left: 12px;
+    color: lightgrey;
+}
