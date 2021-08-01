@@ -1,0 +1,21 @@
+body{
+    background-color: #FF7133;
+    }
+p{
+    color: orange;
+    text-align: center;
+    }
+
+div p{
+    font-size: 22px;
+    color: white;
+    }
+
+.my_class{
+    text-align: center;
+    margin-top: 200px;
+    }
+
+p > span{
+    color: blue;
+    }
